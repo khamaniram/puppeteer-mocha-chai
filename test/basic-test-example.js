@@ -2,7 +2,6 @@ const puppeteer = require('puppeteer');
 const { expect }  = require('chai');
 
 describe('Duck Duck Go search using basic Puppeteer', () => {
-    this.timeout(0);
     let browser;
     let page;
 
@@ -39,5 +38,4 @@ describe('Duck Duck Go search using basic Puppeteer', () => {
         });
         expect(text).to.contain('Not many results contain');
     });
-
 });
