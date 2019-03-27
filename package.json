@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive test --timeout 100000",
+    "test": "mocha --recursive --colors test --timeout 100000",
     "test:teamcity": "mocha --recursive --reporter mocha-teamcity-reporter test --timeout 100000"
   },
   "author": "Eduardo Riol",
